@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculators</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>calc</h1>
+            <div class="nums">
+                <p id="one">1</p>
+                <p id="two">2</p>
+                <p id="three">3</p>
+                <button></button>
+                <button class="red"></button>
+            </div>
+            <div class="control">
+                <p>THEME</p>
+            </div>
+        </div>
+        <div class="screen">  <input type="text" name="calc" readonly id="screen">
+        </div>
+        <div class="btn_num">
+            <button onclick="numbs('7')">7</button>
+            <button onclick="numbs('8')">8</button>
+            <button onclick="numbs('9')">9</button>
+            <button onclick="del()" class="del">DEL</button>
+            <button onclick="numbs('4')">4</button>
+            <button onclick="numbs('5')">5</button>
+            <button onclick="numbs('6')">6</button>
+            <button onclick="numbs('+')">+</button>
+            <button onclick="numbs('1')">1</button>
+            <button onclick="numbs('2')">2</button>
+            <button onclick="numbs('3')">3</button>
+            <button onclick="numbs('-')">-</button>
+            <button onclick="numbs('.')">.</button>
+            <button onclick="numbs('0')">0</button>
+            <button onclick="numbs('/')">/</button>
+            <button onclick="numbs('x')">x</button>
+            <button onclick="reset()" class="reset">RESET</button>
+            <button onclick="equal()" class="equal">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
